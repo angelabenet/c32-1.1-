@@ -183,22 +183,5 @@ function collide(body,sprite)
          }
 }
 
-function airblow()
-{
-  Matter.Body.applyForce(fruit,{x:0,y:0},{x:0.01,y:0});
-  air.play();
-}
-
-
-function mute()
-{
-  if(bk_song.isPlaying())
-     {
-      bk_song.stop();
-     }
-     else{
-      bk_song.play();
-     }
-}
-
+// add as funções com o som 
 
